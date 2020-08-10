@@ -4,7 +4,7 @@ title: Leonardo Sánchez-Aragón
 
 # Username (this should match the folder name)
 authors:
-- admin
+  - admin
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,46 +14,46 @@ role: Professor of Economics
 
 # Organizations/Affiliations
 organizations:
-- name: ESPOL University
-  url: www.espol.edu.ec
+  - name: ESPOL University
+    url: www.espol.edu.ec
 
 # Short bio (displayed in user profile at end of posts)
 bio: Leonardo Sánchez-Aagón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently he is  the Coordinator of the Master in Rural Development at ESPOL.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+  - Agricultural Policy
+  - Network Formation
+  - Econo
 
 education:
   courses:
-  - course: PhD in Agricultural Economics
-    institution: Texas A&M University
-    year: 2014
-  - course: MSc. In Economics
-    institution: Universitat Pompeu FAbra
-    year: 2004
-  - course: BSc in Economics
-    institution: ESPOL University
-    year: 2000
+    - course: PhD in Agricultural Economics
+      institution: Texas A&M University
+      year: 2014
+    - course: MSc. In Economics
+      institution: Universitat Pompeu FAbra
+      year: 2004
+    - course: BSc in Economics
+      institution: ESPOL University
+      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  - icon: envelope
+    icon_pack: fas
+    link: "#contact" # For a direct email link, use "mailto:test@example.org".
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,8 +66,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+  - Researchers
+  - Visitors
 ---
 
-Leonardo Sánchez-Aagón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently he is  the Coordinator of the Master in Rural Development at ESPOL.
+Leonardo Sánchez-Aagón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently he is the Coordinator of the Master in Rural Development at ESPOL.
