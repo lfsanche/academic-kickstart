@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Leonardo Sánchez-Aragón
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor of Economics
 
 # Organizations/Affiliations
 organizations:
