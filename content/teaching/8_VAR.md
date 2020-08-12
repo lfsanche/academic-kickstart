@@ -1,3 +1,31 @@
+---
+title: Display Jupyter Notebooks with Academic
+subtitle: Learn how to blog in Academic using Jupyter notebooks
+summary: Learn how to blog in Academic using Jupyter notebooks
+authors:
+  - admin
+tags: []
+categories: []
+date: "2019-02-05T00:00:00Z"
+lastMod: "2019-09-05T00:00:00Z"
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  caption: ""
+  focal_point: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
 ```python
 import pandas as pd
 import numpy as np
@@ -18,7 +46,6 @@ from statsmodels.tsa.vector_ar.var_model import VARResults, VARProcess
 
 ## Importar los datos
 
-
 ```python
 mdata = sm.datasets.macrodata.load_pandas().data
 
@@ -31,13 +58,9 @@ data = np.log(mdata).diff().dropna()
 
 ```
 
-
 ```python
 data.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -52,6 +75,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -97,47 +121,35 @@ data.head()
 </table>
 </div>
 
-
-
 ## Gráficar las series
-
 
 ```python
 data['realgdp'].plot(color = 'b')
 plt.show()
 ```
 
-
 ![png](./8_VAR_6_0.png)
-
-
 
 ```python
 data['realcons'].plot(color = 'r')
 plt.show()
 ```
 
-
 ![png](./8_VAR_7_0.png)
-
-
 
 ```python
 data['realinv'].plot(color = 'g')
 plt.show()
 ```
 
-
 ![png](./8_VAR_8_0.png)
-
-
 
 ```python
 def adfuller_test(series, signif=0.05, name='', verbose=False):
     """Perform ADFuller to test for Stationarity of given series and print report"""
     r = adfuller(series, autolag='AIC')
     output = {'test_statistic':round(r[0], 4), 'pvalue':round(r[1], 4), 'n_lags':round(r[2], 4), 'n_obs':r[3]}
-    p_value = output['pvalue'] 
+    p_value = output['pvalue']
     def adjust(val, length= 6): return str(val).ljust(length)
 
     # Print Summary
@@ -158,14 +170,13 @@ def adfuller_test(series, signif=0.05, name='', verbose=False):
         print(f" => Series is Non-Stationary.")
 ```
 
-
 ```python
 for name, column in data.iteritems():
     adfuller_test(column, name=column.name)
     print('\n')
 ```
 
-        Augmented Dickey-Fuller Test on "realgdp" 
+        Augmented Dickey-Fuller Test on "realgdp"
         -----------------------------------------------
      Null Hypothesis: Data has unit root. Non-Stationary.
      Significance Level    = 0.05
@@ -176,9 +187,9 @@ for name, column in data.iteritems():
      Critical value 10%    = -2.575
      => P-Value = 0.0. Rejecting Null Hypothesis.
      => Series is Stationary.
-    
-    
-        Augmented Dickey-Fuller Test on "realcons" 
+
+
+        Augmented Dickey-Fuller Test on "realcons"
         -----------------------------------------------
      Null Hypothesis: Data has unit root. Non-Stationary.
      Significance Level    = 0.05
@@ -189,9 +200,9 @@ for name, column in data.iteritems():
      Critical value 10%    = -2.575
      => P-Value = 0.0. Rejecting Null Hypothesis.
      => Series is Stationary.
-    
-    
-        Augmented Dickey-Fuller Test on "realinv" 
+
+
+        Augmented Dickey-Fuller Test on "realinv"
         -----------------------------------------------
      Null Hypothesis: Data has unit root. Non-Stationary.
      Significance Level    = 0.05
@@ -202,12 +213,8 @@ for name, column in data.iteritems():
      Critical value 10%    = -2.574
      => P-Value = 0.0. Rejecting Null Hypothesis.
      => Series is Stationary.
-    
-    
-    
 
 ## Definir y estimar el VAR model
-
 
 ```python
 # make a VAR model
@@ -216,13 +223,9 @@ model = VAR(data)
 
 ## Seleccion de rezagos
 
-
 ```python
 model.select_order(maxlags=12).summary()
 ```
-
-
-
 
 <table class="simpletable">
 <caption>VAR Order Selection (* highlights the minimums)</caption>
@@ -270,20 +273,14 @@ model.select_order(maxlags=12).summary()
 </tr>
 </table>
 
-
-
 ## Estimar el VAR
-
 
 ```python
 results = model.fit(3)
 results.summary()
 ```
 
-
-
-
-      Summary of Regression Results   
+      Summary of Regression Results
     ==================================
     Model:                         VAR
     Method:                        OLS
@@ -310,7 +307,7 @@ results.summary()
     L3.realcons         0.183702         0.148048            1.241           0.215
     L3.realinv          0.012632         0.026449            0.478           0.633
     ==============================================================================
-    
+
     Results for equation realcons
     ==============================================================================
                      coefficient       std. error           t-stat            prob
@@ -326,7 +323,7 @@ results.summary()
     L3.realcons         0.418452         0.125073            3.346           0.001
     L3.realinv          0.041906         0.022345            1.875           0.061
     ==============================================================================
-    
+
     Results for equation realinv
     ==============================================================================
                      coefficient       std. error           t-stat            prob
@@ -342,27 +339,19 @@ results.summary()
     L3.realcons        -0.123787         0.778572           -0.159           0.874
     L3.realinv          0.033453         0.139095            0.241           0.810
     ==============================================================================
-    
+
     Correlation matrix of residuals
                  realgdp  realcons   realinv
     realgdp     1.000000  0.599898  0.759619
     realcons    0.599898  1.000000  0.142964
     realinv     0.759619  0.142964  1.000000
-    
-    
-
-
-
 
 ```python
 results1 = model.fit(maxlags=12, ic='aic')
 results1.summary()
 ```
 
-
-
-
-      Summary of Regression Results   
+      Summary of Regression Results
     ==================================
     Model:                         VAR
     Method:                        OLS
@@ -389,7 +378,7 @@ results1.summary()
     L3.realcons         0.183702         0.148048            1.241           0.215
     L3.realinv          0.012632         0.026449            0.478           0.633
     ==============================================================================
-    
+
     Results for equation realcons
     ==============================================================================
                      coefficient       std. error           t-stat            prob
@@ -405,7 +394,7 @@ results1.summary()
     L3.realcons         0.418452         0.125073            3.346           0.001
     L3.realinv          0.041906         0.022345            1.875           0.061
     ==============================================================================
-    
+
     Results for equation realinv
     ==============================================================================
                      coefficient       std. error           t-stat            prob
@@ -421,17 +410,12 @@ results1.summary()
     L3.realcons        -0.123787         0.778572           -0.159           0.874
     L3.realinv          0.033453         0.139095            0.241           0.810
     ==============================================================================
-    
+
     Correlation matrix of residuals
                  realgdp  realcons   realinv
     realgdp     1.000000  0.599898  0.759619
     realcons    0.599898  1.000000  0.142964
     realinv     0.759619  0.142964  1.000000
-    
-    
-
-
-
 
 ```python
 
@@ -441,8 +425,7 @@ results1.summary()
 
 En las secciones anteriores, hemos considerado procedimientos para elegir el orden de un modelo VAR para el proceso de generación de una serie de tiempo múltiple dada. Los criterios para la elección del modelo pueden considerarse criterios para decidir si los residuos están lo suficientemente cerca del ruido blanco. Por supuesto, si, por ejemplo, el pronóstico es el objetivo, puede no ser de suma importancia si los residuos son realmente ruido blanco siempre que el modelo pronostique bien.
 
-Sin embargo, hay situaciones en las que resulta interesante comprobar el supuesto de ruido blanco  para los residuos de un modelo en particular. Por ejemplo, si el orden del modelo se elige por métodos no estadísticos (por ejemplo, sobre la base de alguna teoría económica), puede ser útil tener herramientas estadísticas disponibles para investigar las propiedades de los residuos.
-
+Sin embargo, hay situaciones en las que resulta interesante comprobar el supuesto de ruido blanco para los residuos de un modelo en particular. Por ejemplo, si el orden del modelo se elige por métodos no estadísticos (por ejemplo, sobre la base de alguna teoría económica), puede ser útil tener herramientas estadísticas disponibles para investigar las propiedades de los residuos.
 
 ```python
 
@@ -451,9 +434,6 @@ Sin embargo, hay situaciones en las que resulta interesante comprobar el supuest
 
 results.test_whiteness(nlags=12).summary()
 ```
-
-
-
 
 <table class="simpletable">
 <caption>Portmanteau-test for residual autocorrelation. H_0: residual autocorrelation up to lag 12 is zero. Conclusion: fail to reject H_0 at 5% significance level.</caption>
@@ -465,19 +445,13 @@ results.test_whiteness(nlags=12).summary()
 </tr>
 </table>
 
-
-
 ## Normalidad de residuos
 
-Se necesita la normalidad del proceso de generación de datos, por ejemplo, en la configuración de intervalos de pronóstico. Los residuos no normales también pueden indicar de manera más general que el modelo no es una buena representación del proceso de generación de datos. Por lo tanto, probar este supuesto de distribución es deseable. 
-
+Se necesita la normalidad del proceso de generación de datos, por ejemplo, en la configuración de intervalos de pronóstico. Los residuos no normales también pueden indicar de manera más general que el modelo no es una buena representación del proceso de generación de datos. Por lo tanto, probar este supuesto de distribución es deseable.
 
 ```python
 results.test_normality().summary()
 ```
-
-
-
 
 <table class="simpletable">
 <caption>normality (skew and kurtosis) test. H_0: data generated by normally-distributed process. Conclusion: reject H_0 at 5% significance level.</caption>
@@ -489,10 +463,7 @@ results.test_normality().summary()
 </tr>
 </table>
 
-
-
 ## Impulso Respuesta
-
 
 ```python
 irf = results.irf(10)
@@ -500,22 +471,16 @@ irf.plot(orth=False)
 plt.show()
 ```
 
-
 ![png](./8_VAR_24_0.png)
-
-
 
 ```python
 irf.plot_cum_effects(orth=False)
 plt.show()
 ```
 
-
 ![png](./8_VAR_25_0.png)
 
-
 ## Descomposicion de la varianza
-
 
 ```python
 fevd = results.fevd(5)
@@ -530,7 +495,7 @@ fevd.summary()
     2    0.816725  0.177898  0.005378
     3    0.793647  0.197590  0.008763
     4    0.777279  0.208127  0.014594
-    
+
     FEVD for realcons
           realgdp  realcons   realinv
     0    0.359877  0.640123  0.000000
@@ -538,7 +503,7 @@ fevd.summary()
     2    0.348044  0.645138  0.006817
     3    0.319913  0.653609  0.026478
     4    0.317407  0.652180  0.030414
-    
+
     FEVD for realinv
           realgdp  realcons   realinv
     0    0.577021  0.152783  0.270196
@@ -546,17 +511,10 @@ fevd.summary()
     2    0.478727  0.314398  0.206874
     3    0.477182  0.315564  0.207254
     4    0.466741  0.324135  0.209124
-    
-    
-    
-
 
 ```python
 results.test_causality('realgdp', 'realinv', kind='f').summary()
 ```
-
-
-
 
 <table class="simpletable">
 <caption>Granger causality F-test. H_0: realinv does not Granger-cause realgdp. Conclusion: fail to reject H_0 at 5% significance level.</caption>
@@ -568,13 +526,9 @@ results.test_causality('realgdp', 'realinv', kind='f').summary()
 </tr>
 </table>
 
-
-
-
 ```python
 
 ```
-
 
 ```python
 # params = results.params
@@ -585,36 +539,34 @@ results.test_causality('realgdp', 'realinv', kind='f').summary()
 # exog = results.intercept
 ```
 
-
 ```python
 # n =120
 
-# y = np.zeros(n) 
+# y = np.zeros(n)
 
-# z = np.zeros(n) 
- 
+# z = np.zeros(n)
+
 
 # for i in range(0,n):
-    
+
 #     εy = np.random.normal(0, 1, 1)
 #     εz = np.random.normal(0, 1, 1)
-    
+
 #     e2 = εz
 #     e1 = εy + 0.8*εz
-    
-    
-#     y[i] = 0.7*y[i - 1] + 0.2*z[i-1]+ e1
-    
-#     z[i] = 0.2*y[i - 1] + 0.7*z[i-1]+ e2
-    
 
-# y = pd.Series(y)    
+
+#     y[i] = 0.7*y[i - 1] + 0.2*z[i-1]+ e1
+
+#     z[i] = 0.2*y[i - 1] + 0.7*z[i-1]+ e2
+
+
+# y = pd.Series(y)
 
 # z = pd.Series(z)
 
 # frame = {'y':y,'z':z}
 ```
-
 
 ```python
 # A1 = np.array([[0.7, 0.2],[0.2, 0.7]])
@@ -623,12 +575,10 @@ results.test_causality('realgdp', 'realinv', kind='f').summary()
 # B*A1
 ```
 
-
 ```python
-# df = pd.DataFrame(frame) 
+# df = pd.DataFrame(frame)
 # df.index = pd.period_range('2001-01-01', '2010-12-01', freq='M')
 ```
-
 
 ```python
 
