@@ -16,7 +16,7 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-links = [{name="Scopus", url = }]
+links = [{name="Scopus", url = " "}]
 url_slides = ""
 url_video = ""
 url_poster = ""
