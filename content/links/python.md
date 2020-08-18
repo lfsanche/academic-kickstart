@@ -1,11 +1,17 @@
 ---
-title: Python
+title: Python - Jupyter
 
 summary: Links
 ---
 
-- <https://www.anaconda.com>
-- <https://pypi.org/project/copulas/>
-- [hola](https://kylebarron.dev/stata_kernel/)
+## tYOE1
 
-http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/
+- [anaconda](https://www.anaconda.com)
+- [copulas](https://pypi.org/project/copulas/)
+- [stata kernel](https://kylebarron.dev/stata_kernel/)
+- [ppt jupyter](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
+- [Networkx basics](http://avinashu.com/tutorial/pythontutorialnew/NetworkXBasics.html)
+
+## tYOE
+
+- [Networkx basics](http://avinashu.com/tutorial/pythontutorialnew/NetworkXBasics.html)
