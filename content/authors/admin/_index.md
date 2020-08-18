@@ -30,8 +30,8 @@ education:
     - course: PhD in Agricultural Economics
       institution: Texas A&M University
       year: 2014
-    - course: MSc. In Economics
-      institution: Universitat Pompeu FAbra
+    - course: MSc. in Economics
+      institution: Universitat Pompeu Fabra
       year: 2004
     - course: BSc in Economics
       institution: ESPOL University
