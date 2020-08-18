@@ -1,8 +1,6 @@
 ---
-title: oe
+title: Python
 ---
-
-# Python
 
 - <https://www.anaconda.com>
 - <https://pypi.org/project/copulas/>
