@@ -6,8 +6,6 @@ summary: Links
 
 - <https://www.anaconda.com>
 - <https://pypi.org/project/copulas/>
-- <https://kylebarron.dev/stata_kernel/>
+- [hola](https://kylebarron.dev/stata_kernel/)
 
----
-
-KSDHFJKAHSFJHASD
+http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/
