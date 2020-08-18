@@ -1,6 +1,5 @@
 ---
 title: Anaconda
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-
+subtitle: "www.anaconda.com"
 link: "www.anaconda.com"
 ---
