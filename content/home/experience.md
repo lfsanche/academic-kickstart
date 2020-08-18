@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Associate Professor"
-  company = "ESPOL University"
+  company = "Facultad de Ciencias Sociales y Humanisticas, ESPOL University"
   company_url = "www.fcsh.espol.edu.ec"
   location = "Guayaquil, Ecuador"
   date_start = "2014-06-01"
@@ -34,8 +34,8 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Dean"
-  company = "Facultad de Ciencias Sociales y Humanisticas"
-  company_url = ""
+  company = "Facultad de Ciencias Sociales y Humanisticas, ESPOL University"
+  company_url = "www.fcsh.espol.edu.ec""
   location = "Guayaquil, Ecuador"
   date_start = "2017-11-17"
   date_end = "2019-03-31"
