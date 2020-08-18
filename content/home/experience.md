@@ -29,13 +29,13 @@ date_format = "Jan 2006"
   
  # * Analysing
  # * Modelling
-#  * Deploying
+ #  * Deploying
  # """
 
 [[experience]]
   title = "Dean"
   company = "Facultad de Ciencias Sociales y Humanisticas, ESPOL University"
-  company_url = "www.fcsh.espol.edu.ec""
+  company_url = "www.fcsh.espol.edu.ec"
   location = "Guayaquil, Ecuador"
   date_start = "2017-11-17"
   date_end = "2019-03-31"
