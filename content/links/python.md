@@ -18,3 +18,7 @@ summary: Links
 ## Stata
 
 - [stata kernel](https://kylebarron.dev/stata_kernel/)
+
+## Plots
+
+- [plot time series](https://plotly.com/python/time-series/)
