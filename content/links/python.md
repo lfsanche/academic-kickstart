@@ -9,7 +9,8 @@ summary: Some links realted to python jupyter and some libraries
 - [anaconda](https://www.anaconda.com)
 - [copulas](https://pypi.org/project/copulas/)
 - [ppt jupyter](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
--
+- [Pandas DataFrame](https://e2eml.school/dataframe_indexing.html)
+- [Optimization](https://juejung.github.io/jdocs/Comp/html/Slides_Optimization.html)
 
 ## Networks
 
