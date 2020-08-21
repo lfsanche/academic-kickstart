@@ -1,7 +1,7 @@
 ---
 title: Latex
 
-summary: Links
+summary: Links related to latex
 ---
 
 - [miktex](https://miktex.org/2.9/setup)

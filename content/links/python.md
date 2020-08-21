@@ -1,7 +1,7 @@
 ---
 title: Python - Jupyter
 
-summary: Links
+summary: Some links realted to python jupyter and some libraries
 ---
 
 ## General
