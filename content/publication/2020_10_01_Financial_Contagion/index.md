@@ -1,6 +1,6 @@
 +++
 title = "Financial Contagion in Cross-holdings Networks: the case of Ecuador"
-date = "2007-01-01"
+date = "2020-01-01"
 authors = ["Pablo Estrada", "Leonardo Sanchez-Aragon"]
 publication_types = ["2"]
 publication = "**Advances in Econometrics, Vol. 42"
