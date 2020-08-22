@@ -1,10 +1,10 @@
 +++
-title = "Weather Derivatives and Water Management in Developing Countries: An Application for an Irrigation District in Central Mexico"
-date = "2017-05-01"
-authors = ["Miriam Juarez-Torres", "Leonardo Sanchez-Aragon", "Dmitry Vedenovv"]
+title = "Impactos económicos del cambio climático en Colombia: Análisis costo-beneficio de medidas de adaptación"
+date = "2016-06-01"
+authors = ["Fabiola Suárez, Ángela Duque, Margarita Pava, Sandra Estupiñán, Silvia Calderón, German Romero, Daniel Ordóñez, Andrés Álvarez,  Leonardo Sanchez-Aragon, Leonardo; Ludeña, Carlos E. Ludeña"]
 publication_types = ["2"]
-publication = "Journal of Agricultural and Resource Economics, Vol. 42, Issue 2"
-publication_short = "**This paper analyzes possible improvements to water allocation from introducing weather derivatives as an insurance instrument in irrigation districts with no water markets and two cropping seasons. Dry-season production depends completely on irrigation, while wet-season production depends on irrigation as a supplement to naturally occurring precipitation. Using an analytical model of water allocation and historical data from an irrigation district in Central Mexico, simulations show that weather derivatives could encourage interseasonal reallocation of water from wet to dry season, generating new Pareto-optimal water allocations that improve overall welfare among producers."
+publication = "Banco Interamericano de Desarrollo, Monografía No. 261 "
+publication_short = "**En el marco del estudio de Impactos Económicos del Cambio Climático de Colombia (EIECC) se identificaron medidas y políticas de adaptación para disminuir los impactos o aprovechar las oportunidades generadas por el cambio climático. Con el propósito de dar continuidad a las evaluaciones relacionadas con la economía del cambio climático y los impactos sociales del mismo, se evidencia la necesidad de contar con insumos para priorizar medidas de adaptación al cambio climático. Este documento contiene un análisis costo-beneficio de medidas de adaptación identificadas en el sector forestal, ganadero y de recursos hídricos en el EIECC. El análisis costo beneficio tiene como propósito brindar información a los tomadores de decisiones para que en las regiones del país se implementen acciones de adaptación, en torno a disminuir la vulnerabilidad asociada al cambio climático con base en los resultados a nivel de cada uno de los sectores analizados"
 abstract_short = ""
 image_preview = ""
 selected = false
@@ -15,7 +15,7 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-links = [{name="Scopus", url = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85020111683&origin=resultslist&sort=plf-f&src=s&sid=1083eabffdcd920d03d9582dd0952c42&sot=autdocs&sdt=autdocs&sl=18&s=AU-ID%2857194431560%29&relpos=1&citeCnt=0&searchTerm= "}]
+links = [{name="BID", url = "https://publications.iadb.org/es/publicacion/13928/impactos-economicos-del-cambio-climatico-en-colombia-analisis-costo-beneficio-de"}]
 url_slides = ""
 url_video = ""
 url_poster = ""
