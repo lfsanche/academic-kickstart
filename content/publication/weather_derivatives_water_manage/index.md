@@ -15,7 +15,7 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-links = [{name="Scopus", url = " "}]
+links = [{name="Scopus", url = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85020111683&origin=resultslist&sort=plf-f&src=s&sid=1083eabffdcd920d03d9582dd0952c42&sot=autdocs&sdt=autdocs&sl=18&s=AU-ID%2857194431560%29&relpos=1&citeCnt=0&searchTerm= "}]
 url_slides = ""
 url_video = ""
 url_poster = ""
