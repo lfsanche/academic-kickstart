@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = "www.fcsh.espol.edu.ec"
   location = "Guayaquil, Ecuador"
   date_start = "2014-06-01"
-  date_end = ""
+  date_end = "2016-03-31"
  # description = """
  # Responsibilities include:
   
@@ -31,6 +31,14 @@ date_format = "Jan 2006"
  # * Modelling
  #  * Deploying
  # """
+
+[[experience]]
+  title = "Associate Dean"
+  company = "Facultad de Ciencias Sociales y Humanisticas, ESPOL University"
+  company_url = "www.fcsh.espol.edu.ec"
+  location = "Guayaquil, Ecuador"
+  date_start = "2016-04-01"
+  date_end = "2017-11-16"
 
 [[experience]]
   title = "Dean"
@@ -41,4 +49,11 @@ date_format = "Jan 2006"
   date_end = "2019-03-31"
   #description = """Taught electronic engineering and researched semiconductor physics."""
 
+[[experience]]
+  title = "Associate Professor"
+  company = "Facultad de Ciencias Sociales y Humanisticas, ESPOL University"
+  company_url = "www.fcsh.espol.edu.ec"
+  location = "Guayaquil, Ecuador"
+  date_start = "2019-04-01"
+  date_end = "Present"
 +++
