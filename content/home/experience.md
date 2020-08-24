@@ -55,5 +55,5 @@ date_format = "Jan 2006"
   company_url = "www.fcsh.espol.edu.ec"
   location = "Guayaquil, Ecuador"
   date_start = "2019-04-01"
-  date_end = "Present"
+  date_end = ""
 +++
