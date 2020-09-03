@@ -18,7 +18,7 @@ organizations:
     url: www.espol.edu.ec
 
 # Short bio (displayed in user profile at end of posts)
-bio: Leonardo Sánchez-Aragón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently he is  the Coordinator of the Master in Rural Development at ESPOL.
+bio: Leonardo Sánchez-Aragón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently, he is an associated researcher of Center of Rural Research at ESPOL.
 
 interests:
   - Agricultural Policy
@@ -80,4 +80,4 @@ user_groups:
   - Visitors
 ---
 
-Leonardo Sánchez-Aragón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently he is the Coordinator of the Master in Rural Development at ESPOL.
+Leonardo Sánchez-Aragón is a Associate Professor at the ESPOL University. His research interests include estimating agricultural productivity, evaluating the effectiveness of agricultural insurance, and the impact of social networks. He has served ESPOL as Associate Dean and as Dean of the Faculty of Social and Humanistic Sciences. Currently, he is an associated researcher of Center of Rural Research at ESPOL.
