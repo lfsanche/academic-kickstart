@@ -1,7 +1,7 @@
 +++
 title = "Financial Contagion in Cross-holdings Networks: the case of Ecuador"
 date = "2020-01-01"
-authors = [with "Pablo Estrada"]
+authors = ["with", "Pablo Estrada"]
 publication_types = ["2"]
 publication = "Advances in Econometrics, Vol. 42"
 # publication_short = "**Economics Bulletin**, (3), 62"
