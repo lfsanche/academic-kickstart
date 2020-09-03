@@ -7,6 +7,7 @@ summary: Some links realted to python jupyter and some libraries
 ## General
 
 - [anaconda](https://www.anaconda.com)
+- [extensions](https://towardsdatascience.com/optimizing-jupyter-notebook-tips-tricks-and-nbextensions-26d75d502663)
 - [copulas](https://pypi.org/project/copulas/)
 - [ppt jupyter](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
 - [Pandas DataFrame](https://e2eml.school/dataframe_indexing.html)
