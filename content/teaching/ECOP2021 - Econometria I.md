@@ -1,6 +1,6 @@
 ---
 title: ECOP2021 - Econometria 1
-linktitle: int
+linktitle: 
 
 toc: true
 type: docs
