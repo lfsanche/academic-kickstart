@@ -16,5 +16,5 @@ draft: false
 weight: 1
 ---
 
-[El link al repositorio GitHub del curso :](https://github.com/lfsanche/ECOG2046)
+[El link al repositorio GitHub del curso :]{https://github.com/lfsanche/ECOG2046}
 
