@@ -1,6 +1,6 @@
 ---
 title: ECOP2021 - Econometria 1
-linktitle: [El link al repositorio GitHub del curso :](https://github.com/lfsanche/ECOG2046)
+linktitle: int
 
 toc: true
 type: docs
