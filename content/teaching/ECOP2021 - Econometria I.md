@@ -17,8 +17,8 @@ menu:
 weight: 1
 ---
 
-# Tip 1
+# Introducción al curso
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Este es un cursos avanzado de Econometria dirigido a los estudiantes de la Maestria en CIencias Economicas. En la primera parte se estudio el metodo de minimo cuadrado, tambien conocido como regesion para estimar la medica condicional de uan variables dado un conjunto de otras variables. Luego se estudian las propiedades asintoticas de los estimadores minimos cuadrados.
 
 [link](https://github.com/lfsanche/ECOG2046)
