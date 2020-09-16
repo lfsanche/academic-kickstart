@@ -11,9 +11,9 @@ summary: Some links realted to
 
 ## My way
 
-1. Install <nbgrader>
+1. Install nbgrader
 
-```python
+```jupyter
 
 var foo = 'bar';
 
