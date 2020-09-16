@@ -13,17 +13,20 @@ summary: Some links realted to
 
 1. Install nbgrader
 
-```jupyter notebook
+```python
+conda install -c conda-forge nbgrader
+```
 
-> var foo = 'bar';
+2. Open Anaconda Powershell Prompt and change directory to the folder where you would like to store your course material
+
+```python
+nbgrader quickstart course_id
 
 ```
-2. Create a folder where you would like to store your course material (e.g. course1)
 
-3. Open Anaconda Powershell Prompt and change directory
+3. Go to the folder course_id/source/ and create folder for each problem sets.
 
-```cmd
-
-> var foo = 'bar';
-
+4. Go to cmd and type
+```
+jupyter notebook
 ```
