@@ -11,4 +11,11 @@ summary: Some links realted to
 
 ## My way
 
-1. Install \verb+nbgrader+
+1. Install <nbgrader>
+
+```python
+
+var foo = 'bar';
+
+```
+2. Create a folder where you would like to sotre yout course material
