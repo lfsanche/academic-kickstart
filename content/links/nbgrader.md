@@ -13,9 +13,11 @@ summary: Some links realted to
 
 1. Install nbgrader
 
-```jupyter
+```jupyter notebook
 
 var foo = 'bar';
 
 ```
-2. Create a folder where you would like to sotre yout course material
+2. Create a folder where you would like to store your course material.
+
+3. Open Anaconda Powershell Prompt and change directory
