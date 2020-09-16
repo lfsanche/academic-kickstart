@@ -15,9 +15,15 @@ summary: Some links realted to
 
 ```jupyter notebook
 
-var foo = 'bar';
+> var foo = 'bar';
 
 ```
-2. Create a folder where you would like to store your course material.
+2. Create a folder where you would like to store your course material (e.g. course1)
 
 3. Open Anaconda Powershell Prompt and change directory
+
+```cmd
+
+> var foo = 'bar';
+
+```
