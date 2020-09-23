@@ -1,15 +1,15 @@
 ---
 title: Jupyter Notebook
 
-summary: Some links realted to jupyter and its kernels
+summary: Some links related to jupyter and its kernels
 ---
 
-# General
+## Notebook
 - [Anaconda](https://www.anaconda.com)
 - [Extensions](https://towardsdatascience.com/optimizing-jupyter-notebook-tips-tricks-and-nbextensions-26d75d502663)
 - [ppt jupyter](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
 
-# Python
+## Python
 - [Copulas](https://pypi.org/project/copulas/)
 - [Pandas DataFrame](https://e2eml.school/dataframe_indexing.html)
 - [Networkx basics](http://avinashu.com/tutorial/pythontutorialnew/NetworkXBasics.html)
@@ -17,7 +17,7 @@ summary: Some links realted to jupyter and its kernels
 - [Density plots](https://python-graph-gallery.com/density-plot/)
 - [plot time series](https://plotly.com/python/time-series/)
 
-# R-Kernel
+## R-Kernel
 - [R kernel](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
 
 ## Stata
