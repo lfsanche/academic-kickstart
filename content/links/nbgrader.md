@@ -6,7 +6,7 @@ summary: Some links realted to
 
 ## General
 
-- [short way](https://medium.com/analytics-vidhya/5-steps-to-auto-grade-your-jupyter-notebooks-nbgrader-simplified-4cbebf8943ef)
+- [short way](https://www.osc.edu/resources/getting_started/classroom_project_resource_guide/using_nbgrader_for_classroom)
 - [long way - not useful](https://nbgrader.readthedocs.io/en/stable/index.html)
 
 ## My way
