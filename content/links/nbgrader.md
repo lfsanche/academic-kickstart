@@ -32,10 +32,23 @@ summary: Some links realted to
     C:\Users\your-name\path-home-course> nbgrader quickstart <course101>
     ```
 
-    Of course, you can use another course name. A folder course101 has been created into path-home-course. There are two elements: a folder source and a py file (nbgrader_config). You can drop all elements inside source folder, but NOT the folder
+    Of course, you can use another course name. A folder course101 has been created into path-home-course. There are two elements: a folder source and a py file (nbgrader_config). You can drop all elements inside source folder, but NOT the folder.
+
+    NOTE: nbgrader makes a few assumptions about how your assignment files are organized.  
+
+            Course101/
+            |- gradebook.db
+            |- nbgrader_config.db
+            |- source/
+                |- ps1/
+                    ps1.ipynb
+                |- ps2/
+                    ps2.ipynb                    
+
 
 3. Get inside the folder course101 and launch a noteobook
 
     ```
     C:\Users\your-name\path-home-course\course101> jupyter noteobook
     ```
+    
