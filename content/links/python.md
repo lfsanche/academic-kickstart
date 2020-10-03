@@ -16,6 +16,8 @@ summary: Some links related to jupyter and its kernels
 - [Optimization](https://juejung.github.io/jdocs/Comp/html/Slides_Optimization.html)
 - [Density plots](https://python-graph-gallery.com/density-plot/)
 - [plot time series](https://plotly.com/python/time-series/)
+- [drop NaN](https://www.w3resource.com/pandas/dataframe/dataframe-dropna.php)
+
 
 ## R-Kernel
 - [R kernel](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
