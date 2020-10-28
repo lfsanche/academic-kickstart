@@ -49,6 +49,6 @@ summary: Some links realted to
 3. Get inside the folder course101 and launch a noteobook
 
     ```
-    C:\Users\your-name\path-home-course\course101> jupyter noteobook
+    C:\Users\your-name\path-home-course\course101> jupyter notebook
     ```
     
