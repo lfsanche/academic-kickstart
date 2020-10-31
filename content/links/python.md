@@ -23,3 +23,6 @@ summary: Some links related to jupyter and its kernels
 
 ## Stata
 - [stata kernel](https://kylebarron.dev/stata_kernel/)
+
+## pip install
+- [!pip install pyreadstat](https://pypi.org/project/pyreadstat/)
