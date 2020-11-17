@@ -18,6 +18,7 @@ summary: Some links related to jupyter and its kernels
 - [plot time series](https://plotly.com/python/time-series/)
 - [drop NaN](https://www.w3resource.com/pandas/dataframe/dataframe-dropna.php)
 - [seaborn](https://seaborn.pydata.org/tutorial/distributions.html)
+- [Matplotlib guide](https://realpython.com/python-matplotlib-guide/)
 
 ## R-Kernel
 - [R kernel](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
