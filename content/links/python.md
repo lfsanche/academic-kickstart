@@ -11,6 +11,7 @@ summary: Some links related to jupyter and its kernels
 
 ## Python
 - [Copulas](https://pypi.org/project/copulas/)
+- [An intuitive, visual guide to copulas](https://twiecki.io/blog/2018/05/03/copulas/)
 - [Pandas DataFrame](https://e2eml.school/dataframe_indexing.html)
 - [Networkx basics](http://avinashu.com/tutorial/pythontutorialnew/NetworkXBasics.html)
 - [Optimization](https://juejung.github.io/jdocs/Comp/html/Slides_Optimization.html)
@@ -19,6 +20,7 @@ summary: Some links related to jupyter and its kernels
 - [drop NaN](https://www.w3resource.com/pandas/dataframe/dataframe-dropna.php)
 - [seaborn](https://seaborn.pydata.org/tutorial/distributions.html)
 - [Matplotlib guide](https://realpython.com/python-matplotlib-guide/)
+- [10 Python Pandas tricks that make your work more efficient](https://towardsdatascience.com/10-python-pandas-tricks-that-make-your-work-more-efficient-2e8e483808ba)
 
 ## R-Kernel
 - [R kernel](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
@@ -28,3 +30,7 @@ summary: Some links related to jupyter and its kernels
 
 ## pip install
 - [!pip install pyreadstat](https://pypi.org/project/pyreadstat/)
+
+## Multilayer Networks Library for Python
+-[Pymnet](http://www.mkivela.com/pymnet/)
+- [Mining Multiplex Network: A tutorial](https://lipn.univ-paris13.fr/munm/MUNM/Home.html)
