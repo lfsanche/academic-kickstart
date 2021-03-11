@@ -25,7 +25,7 @@ summary: Some links related to jupyter and its kernels
 ## Networkx
 - [Networkx basics](http://avinashu.com/tutorial/pythontutorialnew/NetworkXBasics.html)
 - [Visualizing Networks in Python](https://towardsdatascience.com/visualizing-networks-in-python-d70f4cbeb259)
-
+s
 ## Multilayer Networks Library for Python
 - [Pymnet](http://www.mkivela.com/pymnet/)
 - [Mining Multiplex Network: A tutorial](https://lipn.univ-paris13.fr/munm/MUNM/Home.html)
@@ -35,10 +35,9 @@ summary: Some links related to jupyter and its kernels
 
 # Stata
 - [stata kernel](https://kylebarron.dev/stata_kernel/)
-- [ipystata](https://dev-ii-seminar.readthedocs.io/en/latest/notebooks/Stata_in_jupyter.html)
-- [ipystata2](https://github.com/TiesdeKok/ipystata/blob/master/ipystata/Example.ipynb)
+- [!pip install ipystata - stata](https://github.com/TiesdeKok/ipystata/blob/master/ipystata/Example.ipynb)
 
 ## pip install
-- [!pip install pyreadstat](https://pypi.org/project/pyreadstat/)
+- [!pip install pyreadstat - spss](https://pypi.org/project/pyreadstat/)
 
 
