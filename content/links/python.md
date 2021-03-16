@@ -21,6 +21,7 @@ summary: Some links related to jupyter and its kernels
 - [seaborn](https://seaborn.pydata.org/tutorial/distributions.html)
 - [Matplotlib guide](https://realpython.com/python-matplotlib-guide/)
 - [10 Python Pandas tricks that make your work more efficient](https://towardsdatascience.com/10-python-pandas-tricks-that-make-your-work-more-efficient-2e8e483808ba)
+- [ppt presentations](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
 
 ## Networkx
 - [Networkx basics](http://avinashu.com/tutorial/pythontutorialnew/NetworkXBasics.html)
@@ -37,6 +38,7 @@ s
 - [stata kernel](https://kylebarron.dev/stata_kernel/)
 - [!pip install ipystata - stata](https://github.com/TiesdeKok/ipystata/blob/master/ipystata/Example.ipynb)
 - [Specification charts](https://github.com/martin-andresen/speccurve)
+- [stata_to_python](http://www.danielmsullivan.com/pages/tutorial_stata_to_python.html)
 
 # Julia
 - [Julia Kernel](https://datatofish.com/add-julia-to-jupyter/)
