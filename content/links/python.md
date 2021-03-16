@@ -36,6 +36,10 @@ s
 # Stata
 - [stata kernel](https://kylebarron.dev/stata_kernel/)
 - [!pip install ipystata - stata](https://github.com/TiesdeKok/ipystata/blob/master/ipystata/Example.ipynb)
+- [Specification charts](https://github.com/martin-andresen/speccurve)
+
+# Julia
+- [Julia Kernel](https://datatofish.com/add-julia-to-jupyter/)
 
 ## pip install
 - [!pip install pyreadstat - spss](https://pypi.org/project/pyreadstat/)
