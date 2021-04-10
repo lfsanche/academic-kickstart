@@ -39,6 +39,7 @@ s
 - [!pip install ipystata - stata](https://github.com/TiesdeKok/ipystata/blob/master/ipystata/Example.ipynb)
 - [Specification charts](https://github.com/martin-andresen/speccurve)
 - [stata_to_python](http://www.danielmsullivan.com/pages/tutorial_stata_to_python.html)
+- [Stata font graph](https://medium.com/the-stata-guide/stata-graphs-get-those-fonts-right-c38d35625142)
 
 # Julia
 - [Julia Kernel](https://datatofish.com/add-julia-to-jupyter/)
