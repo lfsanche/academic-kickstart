@@ -6,6 +6,7 @@ summary: Links related to latex
 
 - [miktex](https://miktex.org/2.9/setup)
 - [table generator](https://www.tablesgenerator.com/)
+- [latex table](https://www.latex-tables.com/)
 - [equation editor](https://www.codecogs.com/latex/eqneditor.php)
 - [Mathpix](https://mathpix.com/)
 - [Overleaf](https://www.overleaf.com/)
