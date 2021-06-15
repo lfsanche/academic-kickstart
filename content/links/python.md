@@ -13,7 +13,7 @@ summary: Some links related to jupyter and its kernels
 - [Copulas](https://pypi.org/project/copulas/)
 - [An intuitive, visual guide to copulas](https://twiecki.io/blog/2018/05/03/copulas/)
 - [Pandas DataFrame](https://e2eml.school/dataframe_indexing.html)
-
+- [styling pandas](https://pbpython.com/styling-pandas.html)
 - [Optimization](https://juejung.github.io/jdocs/Comp/html/Slides_Optimization.html)
 - [Density plots](https://python-graph-gallery.com/density-plot/)
 - [plot time series](https://plotly.com/python/time-series/)
