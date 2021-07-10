@@ -7,7 +7,7 @@ summary: Some links related to jupyter and its kernels
 ## Notebook
 - [Anaconda](https://www.anaconda.com)
 - [Extensions](https://towardsdatascience.com/optimizing-jupyter-notebook-tips-tricks-and-nbextensions-26d75d502663)
-- [ppt jupyter](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
+- [ppt jupyterp](http://www.blog.pythonlibrary.org/2018/09/25/creating-presentations-with-jupyter-notebook/)
 
 # Python
 - [Copulas](https://pypi.org/project/copulas/)
